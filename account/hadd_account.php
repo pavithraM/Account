@@ -16,7 +16,7 @@ if (!mysql_query($sql,$con))
   {
   die('Error: ' . mysql_error());
   }
-echo "<p>User \"$_POST[dp]\" for \"$_POST[rl]\" email has been added successfully!</p>";
+echo "<p>User \"$_POST[dp]\" for \"$_POST[rl]\" name has been added successfully!</p>";
 
 mysql_close($con)
 ?> 
